@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+.form-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    background-color: blueviolet;
+}
+
+.form-body{
+   width: 500px; 
+   background-color: blueviolet;
+   border-radius: 10px;
+}
+
+.table-body{
+    width: 1000px; 
+}
+
+.container-polei {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px; /* установите желаемую высоту */
+}
+
+.container-polei table{
+    width: 90%;
+}
+
+.container-polei input{
+    font-size: 18;
+    width: 226;
+}
+
+.container-polei textarea{
+    font-size: 18;
+    resize: none;
+    width: 226;
+}
+
+.container-polei label{
+    color: white;
+    font-size: 18;
+    width: 150px;
+}
+
+.container-polei select{
+    font-size: 18;
+    width: 226;
+}
+
+table td tr{
+    text-align: left;
+}
+
+.submit{
+    margin: 10 0 0 0;
+    width: 200px;
+    height: 40;
+    color: white;
+    border-color: rgb(213, 130, 12);
+    background-color: rgb(213, 130, 12);
+    cursor: pointer;
+}
+
+h2{
+    font-size: 26px;
+    color: rgb(232, 153, 43);
+}
+
+table{
+    width: 100%;
+    font-size: 18px;
+}
+
+table tr th{
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 1%;
+    padding-top: 3%;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.tbl-half{
+    width: 40%;
+}
+
+a{
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.update-button{
+    width: 120px;
+    height: 40px;
+    font-size: 15;
+    color: white;
+    background-color: rgb(47, 47, 248);
+    cursor: pointer;
+    border-color: rgb(47, 47, 248);
+}
+
+.delete-button{
+    width: 115px;
+    height: 40px;
+    font-size: 15;
+    color: white;
+    background-color: rgb(233, 70, 70);
+    cursor: pointer;
+    border-color: rgb(233, 70, 70);
+}
